@@ -1,0 +1,39 @@
+h1{
+  color: #2980B9
+}
+h1 a{
+  text-decoration: none;
+}
+h1 small{
+  font-style: italic;
+}
+hgroup h2, hgroup h3{
+  line-height: 1.5;
+}
+hgroup h2{
+  color: #E74C3C;
+  font-size: 70px;
+}
+
+hgroup h3{
+  font-size: 45px;
+  margin: 55px 0;
+}
+
+form legend{
+  margin-bottom: 30px;
+}
+
+legend + * {
+    -webkit-margin-top-collapse : separate;
+    margin-top                  : 20px;
+}
+
+form input#target-url{
+  font-size: 25px;
+  padding: 15px 0 15px 10px
+}
+
+ul{
+  list-style: none}
+}
